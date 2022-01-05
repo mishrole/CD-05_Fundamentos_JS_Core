@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="bg-secondary container">
+            <div class="row flex-center text-center">
+                <div class="col">
+                    <a href="/" class="nav-title">Dojonary</a>
+                </div>
+                <div class="col-2">
+                    <input type="search" name="search" placeholder="Search" class="form-control">
+                </div>
+                <div class="col">
+                    <button id="toggleInOut" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div id="definitionList">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <h1>ninja</h1>
+                                    <h4 class="text-italic">noun</h4>
+                                    <h5 class="fw-regular">Plural: <span class="text-italic">ninjas</span></h5>
+                                    <button class="btn btn-warning btn-like">13 likes</button>
+                                </div>
+                                <div class="col-2 row flex-center">
+                                    <p>A practitioner skilled in the <a href="/" class="link link-primary">Japanese</a> art of <a href="/" class="link link-primary">ninjutsu</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <h1>ninja</h1>
+                                    <h4 class="text-italic">noun</h4>
+                                    <h5 class="fw-regular">Plural: <span class="text-italic">ninjas</span></h5>
+                                    <button class="btn btn-warning btn-like">37 likes</button>
+                                </div>
+                                <div class="col-2 row flex-center">
+                                    <p>A <a href="/" class="link link-primary">programmer</a> who breaks down problems with <a href="/" class="link link-primary">zen</a>-like focus<p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col">
+                                <p>Dojonary is defined by YOU</p>
+                                <button id="addDefinition" class="btn btn-success btn-full">Add Definition</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
